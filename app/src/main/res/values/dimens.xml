@@ -4,4 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="title_activity_text">30sp</dimen>
     <dimen name="username_text">20sp</dimen>
+    <dimen name="main_menu_btn_width">230dp</dimen>
+    <dimen name="main_menu_btn_height">80dp</dimen>
 </resources>

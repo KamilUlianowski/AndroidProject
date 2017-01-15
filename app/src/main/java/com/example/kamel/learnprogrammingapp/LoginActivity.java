@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
                 SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putString("scoresJson", result);
+                editor.putString("coursesJson", result);
                 editor.commit();
                 Intent intent = new Intent(LoginActivity.this, MainMenuActivity.class);
                 startActivity(intent);
