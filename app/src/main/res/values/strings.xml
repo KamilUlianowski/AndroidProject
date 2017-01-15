@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LearnProgrammingApp</string>
+    <string name="hello">Hello</string>
+    <string name="username">Username</string>
+    <string name="next">Next</string>
+    <string name="wait">Wait...</string>
+</resources>
