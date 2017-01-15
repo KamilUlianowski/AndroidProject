@@ -9,6 +9,8 @@ import java.util.ArrayList;
 
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -68,8 +70,12 @@ public class ResultAdapter  extends BaseAdapter {
 
         Result recipe = (Result) getItem(position);
 
-// 2
-        index.setText(position);
+        if(position == 0){
+            index.setText("Index");
+        }
+        else {
+            index.setText(Integer.toString(position));
+        }
         username.setText(recipe.getUsername());
         course.setText(recipe.getCourse());
         score.setText(recipe.getResult());

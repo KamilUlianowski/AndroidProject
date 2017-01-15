@@ -4,6 +4,9 @@
     <string name="username">Username</string>
     <string name="next">Next</string>
     <string name="wait">Wait...</string>
-    <string name="courses">Courses</string>
     <string name="scores">Scores</string>
+    <string name="courses">Courses</string>
+    <string name="place">Place</string>
+    <string name="result">Result</string>
+    <string name="course">Course</string>
 </resources>

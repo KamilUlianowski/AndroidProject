@@ -31,6 +31,12 @@ public class MainMenuActivity extends AppCompatActivity {
                 .execute("http://androidwebservice.azurewebsites.net/api/testresult/getbestresults");
     }
 
+    public void goToCourses(View view){
+        Intent intent = new Intent(MainMenuActivity.this, CoursesActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
     class WebServiceHandler extends AsyncTask<String, Void, String> {
 
         private ProgressDialog dialog = new ProgressDialog(MainMenuActivity.this);
